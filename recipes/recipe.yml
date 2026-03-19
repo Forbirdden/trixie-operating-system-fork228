@@ -9,6 +9,11 @@ description: This is my personal OS image.
 base-image: quay.io/fedora/fedora-silverblue
 image-version: 44 # latest is also supported if you want new updates ASAP
 
+branding:
+  name: TrixieUA OS
+  vending-id: system-trixieua
+  website: "https://github.com/TrixieUA/system-image"
+
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
